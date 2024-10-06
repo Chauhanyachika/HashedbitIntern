@@ -1,0 +1,15 @@
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(83, 142, 194, 0.329);
+  }
+  .movie-item {
+    text-align: center;
+  }
+  .movie-item img {
+    width: 100%;
+    height: auto;
+  }
+  
